@@ -1,0 +1,48 @@
+@import 'reset/variables' , 'reset/mixins' , 'reset/reset' ,'reset/keyframes';
+
+.calesita{
+    width:70%;
+    max-width: 80em;
+    padding:2em;
+    @include neo( 1 , 1em , 1em );
+    overflow: hidden;
+}
+.calesita .grande{
+    width: 200%;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding:2em;
+
+
+    transition: all .5s ease;
+    transform: translateX(0%);
+}
+.calesita .img{
+    width: calc( 100% / 2  - 2em);
+    min-height: 10vh;
+    @include neo( 1 , 1em , 1em );
+}
+.calesita .puntos{
+    width:100%;
+    margin:1em 0 0;
+    padding:.4em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.calesita .punto{
+    width:  2em;
+    height: 2em;
+    margin: 1em 1em 0;
+    @include neo( 1 , 1em , .6em );
+}
+.calesita .punto.activo{
+    background-color: lightblue;
+}
+
+

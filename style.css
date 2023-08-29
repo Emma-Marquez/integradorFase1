@@ -1,0 +1,51 @@
+.contenedor{
+    padding: 50px;
+}
+h1,p{
+    text-align: center;
+}
+h1{
+    margin: 60px;
+}
+footer{
+    text-align: center;
+    margin-top: auto;
+    background-color: black;
+    color: antiquewhite;
+}
+footer p{
+    display: inline-block;
+    margin: 0 30px;
+}
+.recreacion{
+    width: 80%;
+}
+h2{
+    margin-top: 100px;
+    text-align: center;
+}
+.logo{
+    display:block;
+    margin: auto;
+    animation: animacion  2s forwards
+}
+@keyframes animacion {
+    from{width: 10px;}
+    to{
+        /* margin: auto; */
+        width: 175px;
+    }
+}
+.ultimo{
+    margin-bottom: 100px;
+}
+.jugando{
+    width: 100%;
+}
+.izquierda{
+    text-align: left;
+}
+main{
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
